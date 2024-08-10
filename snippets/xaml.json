@@ -1,6 +1,6 @@
 {
 	"XAML label": {
-        "scope": "xml",
+        "scope": "xaml",
         "prefix": "label",
 		"body": [
 			"<Label Name=\"$1\">$2</Label>"
@@ -8,7 +8,7 @@
 		"description": "Label element"
 	},
 	"XAML Button": {
-        "scope": "xml",
+        "scope": "xaml",
         "prefix": "button",
 		"body": [
 			"<Button Click=\"$1\" Name=\"$2\">$3</Button>"
@@ -16,7 +16,7 @@
 		"description": "Button element"
 	},
 	"XAML TextBlock": {
-        "scope": "xml",
+        "scope": "xaml",
         "prefix": "textblock",
 		"body": [
 			"<TextBlock Name=\"$1\">$2</TextBlock>"
@@ -24,7 +24,7 @@
 		"description": "TextBlock element"
 	},
 	"XAML TextBox": {
-        "scope": "xml",
+        "scope": "xaml",
         "prefix": "textbox",
 		"body": [
 			"<TextBox Name=\"$1\">$2</TextBox>"
@@ -32,7 +32,7 @@
 		"description": "TextBox element"
 	},
 	"XAML CheckBox": {
-		"scope": "xml",
+		"scope": "xaml",
 		"prefix": "checkbox",
 		"body": [
 			"<CheckBox Name=\"$1\">$2</CheckBox>"
@@ -40,7 +40,7 @@
 		"description": "CheckBox element"
 	},
 	"XAML RadioButton": {
-		"scope": "xml",
+		"scope": "xaml",
 		"prefix": "radiobutton",
 		"body": [
 			"<RadioButton Name=\"$1\">$2</RadioButton>"
@@ -48,7 +48,7 @@
 		"description": "RadioButton element"
 	},
 	"XAML StackPanel": {
-        "scope": "xml",
+        "scope": "xaml",
         "prefix": "stackpanel",
 		"body": [
 			"<StackPanel Orientation=\"$1\" Margin=\"$2\">",
@@ -58,7 +58,7 @@
 		"description": "StackPanel element"
 	},
 	"XAML Grid": {
-        "scope": "xml",
+        "scope": "xaml",
         "prefix": "grid",
 		"body": [
 			"<Grid Margin=\"$1\">",
@@ -68,7 +68,7 @@
 		"description": "Grid element"
 	},
 	"XAML RowDefinition": {
-        "scope": "xml",
+        "scope": "xaml",
         "prefix": "rowdefinition",
 		"body": [
 			"<RowDefinition Height=\"$1\" />"
@@ -76,7 +76,7 @@
 		"description": "RowDefinition element"
 	},
 	"XAML ColumnDefinition": {
-        "scope": "xml",
+        "scope": "xaml",
         "prefix": "columndefinition",
 		"body": [
 			"<ColumnDefinition Width=\"$1\" />"
@@ -84,22 +84,11 @@
 		"description": "ColumnDefinition element"
 	},
 	"XAML Image": {
-        "scope": "xml",
+        "scope": "xaml",
         "prefix": "image",
 		"body": [
 			"<Image Source=\"$1\" Name=\"$2\" />"
 		],
 		"description": "Image element"
-	},
-    "XAML event": {
-        "scope": "csharp",
-		"prefix": "event",
-		"body": [
-			"private void $1(object sender, RoutedEventArgs e)",
-			"{",
-			"\t$2",
-			"}"
-		],
-		"description": "Event handler"
 	}
 }

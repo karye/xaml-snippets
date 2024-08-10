@@ -18,7 +18,11 @@
     "snippets": [
       {
         "language": "csharp",
-        "path": "./snippets/wpf.json"
+        "path": "./snippets/csharp.json"
+      },
+      {
+        "language": "xaml",
+        "path": "./snippets/xaml.json"
       }
     ]
   }

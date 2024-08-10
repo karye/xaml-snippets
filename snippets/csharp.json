@@ -1,0 +1,13 @@
+{
+    "XAML event": {
+        "scope": "csharp",
+		"prefix": "event",
+		"body": [
+			"private void $1(object sender, RoutedEventArgs e)",
+			"{",
+			"\t$2",
+			"}"
+		],
+		"description": "Event handler"
+	}
+}
