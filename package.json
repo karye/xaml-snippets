@@ -1,0 +1,21 @@
+{
+  "name": "xaml-snippets",
+  "publisher": "karye",
+  "displayName": "xaml-snippets",
+  "description": "Simplifying WPF coding",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "csharp",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
