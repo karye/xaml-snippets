@@ -1,6 +1,6 @@
 # xaml-snippets README
 
-This is the README for the extension "xaml-snippets". This extension provides snippets for XAML files.
+This extension provides snippets for simplifying the creation of XAML and C# code in Visual Studio Code.
 
 ## Features
 

@@ -3,6 +3,10 @@
   "publisher": "karye",
   "displayName": "xaml-snippets",
   "description": "Simplifying WPF coding",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karye/xaml-snippets.git"
+    },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.92.0"
