@@ -21,3 +21,8 @@ This extension provides snippets for the following XAML elements:
 And csharp code snippets for event handlers:
 
 * `private void Button_Click(object sender, RoutedEventArgs e)`
+
+** PAT
+```text
+Es16uqaxUpeQMTLb1UPHAOJCObifYMCLaAv9GstDUEmJTd3tFuVIJQQJ99BAACAAAAAAAAAAAAASAZDO3aDq
+```
